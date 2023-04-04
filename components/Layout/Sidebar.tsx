@@ -15,7 +15,7 @@ export type NavItem = {
 type Props = {
   open: boolean;
   navItems?: NavItem[];
-  setOpen: void;
+  setOpen: any;
 };
 
 const Sidebar = ({ open, navItems = defaultNavItems, setOpen }: Props) => {
