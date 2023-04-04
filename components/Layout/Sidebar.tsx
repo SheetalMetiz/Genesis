@@ -15,13 +15,13 @@ export type NavItem = {
 type Props = {
   open: boolean;
   navItems?: NavItem[];
-  setOpen(open: boolean): void;
+  setOpen: void;
 };
 
 const Sidebar = ({ open, navItems = defaultNavItems, setOpen }: Props) => {
   const ref = useRef<HTMLDivElement>(null);
   useOnClickOutside(ref,() => {
-    setOpen(false);
+    setOpen;
   });
   return (
    <>
