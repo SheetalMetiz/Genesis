@@ -2,7 +2,7 @@ import React, { PropsWithChildren, useState } from "react";
 import Navbar from "./Navbar";
 
 import Sidebar from "./Sidebar";
-import Head from "next/head";
+
 
 // Main Layout
 const Layout = (props: PropsWithChildren)=> {
